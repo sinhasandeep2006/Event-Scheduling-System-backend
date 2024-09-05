@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const string= require('../.env')
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.conn_string, {
